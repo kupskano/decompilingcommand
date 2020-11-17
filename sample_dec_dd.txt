@@ -1,0 +1,45 @@
+copy apk on tools folder
+cmd open file
+java -jar apktool.jar d app_name.apk
+java -jar apktool.jar b app_name  - without .apk
+open jdax on folder jdax->bin->jadx-gui.bat click
+navigate folder inside jdax-gui
+appname->build->apk->sort all needed classes
+open manifest sort package name
+
+java -jar apktool.jar b app_name  - without .apk and done editing
+go to sign in appfolder->dist then cmd open
+
+
+signed it and change alias and key :
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+if cmd key store not work direct on android studio
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore my_application.apk alias_name
+
+
+___________________________________________________________________________________________________________________________________
+1:the main question is where
+
+2: whether the APP program is running smoothly
+
+3:is there any infringement involved
+
+4:whether there is a private contact in it
+
+5:whether the upload process is associated with other apps
+
+6:have you changed the method
+
+7:to use different ways to design the APP
+
+8: can't look like a product made by one person
+
+9:each APP needs to be independent,can not look exactly like other apps
+
+10: to be innovative, can not look like plagiarism
+
+11: change the way and method, do not understand to discuss in a timely manner
+
+12: timely feedback with questions
